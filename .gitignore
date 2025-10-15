@@ -1,0 +1,79 @@
+# --- Environment Variables ---
+# Never commit sensitive configuration files
+.env
+.env.*
+!.env.example # Allows tracking an example file, but not the real one
+
+# --- Python ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod] # Matches .pyc, .pyo, .pyd
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+wheels/
+pip-wheel-metadata/
+*.tar.gz
+*.zip
+
+# Installation logs and caches
+pip-log.txt
+pip-delete-this-directory.txt
+.pip-cache/
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+
+# Virtual Environments
+# Common names for virtual environments - adjust if you use a different name
+venv/
+.venv/
+env/
+ENV/
+venv.*
+env.*
+
+# --- IDEs / Editors ---
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+# Eclipse
+.project
+.pydevproject
+.settings/
+
+# --- OS Generated Files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+# Linux
+*~
+
+# --- Other ---
+# Logs
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
