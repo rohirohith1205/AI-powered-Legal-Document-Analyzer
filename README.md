@@ -43,3 +43,10 @@ TESSERACT_CMD=C:\Program Files\Tesseract-OCR\tesseract.exe
 
 **Start the Streanlit Server**
 streamlit run app.py
+
+## Updates in Branch rohi
+- Risk meter graph implemented
+- Heavy ML model replaced with lightweight model
+- Added clause confidence scoring
+- UI improvements for better usability
+- Model now loads only once for performance optimization
